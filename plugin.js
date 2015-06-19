@@ -10,12 +10,12 @@
     Plugin.hooks = {
         filters: {
             categoryCreate: function (categoryData, callback) {
-                categoryData.slug = translit(categoryData.slug);
+                categoryData.category.slug = translit(categoryData.category.slug);
                 callback(null, categoryData);
             },
 
             topicCreate: function (topicData, callback) {
-                topicData.slug = translit(topicData.slug);
+                topicData.topic.slug = translit(topicData.topic.slug);
                 callback(null, topicData);
             },
 
