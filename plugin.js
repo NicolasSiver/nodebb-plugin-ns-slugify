@@ -10,15 +10,19 @@
     Plugin.hooks = {
         filters: {
             categoryCreate: function (categoryData, callback) {
-
+                categoryData.slug = translit(categoryData.slug);
+                callback(null, categoryData);
             },
 
             topicCreate: function (topicData, callback) {
-
+                topicData.slug = translit(topicData.slug);
+                callback(null, topicData);
             },
 
             userCreate: function (userData, callback) {
-
+                //If there will be username collision, userslug will be overridden by NodeBB...
+                userData.userslug = translit(userData.userslug);
+                callback(null, userData);
             }
         }
     };
