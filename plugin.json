@@ -5,5 +5,17 @@
   "url": "https://github.com/NicolasSiver/nodebb-plugin-ns-slugify",
   "library": "./plugin.js",
   "hooks": [
+    {
+      "hook": "filter:category.create",
+      "method": "hooks.filters.categoryCreate"
+    },
+    {
+      "hook": "filter:topic.create",
+      "method": "hooks.filters.topicCreate"
+    },
+    {
+      "hook": "filter:user.create",
+      "method": "hooks.filters.userCreate"
+    }
   ]
 }

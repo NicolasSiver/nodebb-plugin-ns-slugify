@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/NicolasSiver/nodebb-plugin-ns-slugify/issues"
   },
-  "homepage": "https://github.com/NicolasSiver/nodebb-plugin-ns-slugify#readme"
+  "homepage": "https://github.com/NicolasSiver/nodebb-plugin-ns-slugify#readme",
+  "dependencies": {
+    "translitit-cyrillic-russian-to-latin": "^0.1.0"
+  }
 }
