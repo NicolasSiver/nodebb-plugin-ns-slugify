@@ -1,8 +1,9 @@
 # NodeBB: Slugify
 Auto transliteration of slugs.
 
-![Version](https://img.shields.io/npm/v/nodebb-plugin-ns-slugify.svg?style=flat-square)
-![Code Climate](https://img.shields.io/codeclimate/github/NicolasSiver/nodebb-plugin-ns-slugify.svg?style=flat-square)
+![Version](https://img.shields.io/npm/v/nodebb-plugin-ns-slugify.svg)
+[![bitHound Score](https://www.bithound.io/github/NicolasSiver/nodebb-plugin-ns-slugify/badges/score.svg?)](https://www.bithound.io/github/NicolasSiver/nodebb-plugin-ns-slugify)
+![Code Climate](https://img.shields.io/codeclimate/github/NicolasSiver/nodebb-plugin-ns-slugify.svg)
 
 ## Entities
 
