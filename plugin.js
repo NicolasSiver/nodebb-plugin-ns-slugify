@@ -19,6 +19,11 @@
                 callback(null, topicData);
             },
 
+            topicEdit: function (topicData, callback) {
+                topicData.slug = translit(topicData.slug);
+                callback(null, topicData);
+            },
+
             userCreate: function (userData, callback) {
                 //If there will be username collision, userslug will be overridden by NodeBB...
                 userData.userslug = translit(userData.userslug);

@@ -14,6 +14,10 @@
       "method": "hooks.filters.topicCreate"
     },
     {
+      "hook": "filter:topic.edit",
+      "method": "hooks.filters.topicEdit"
+    },
+    {
       "hook": "filter:user.create",
       "method": "hooks.filters.userCreate"
     }
