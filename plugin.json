@@ -10,6 +10,10 @@
       "method": "hooks.filters.categoryCreate"
     },
     {
+      "hook": "filter:category.update",
+      "method": "hooks.filters.categoryUpdate"
+    },
+    {
       "hook": "filter:topic.create",
       "method": "hooks.filters.topicCreate"
     },

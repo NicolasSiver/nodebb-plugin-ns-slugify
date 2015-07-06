@@ -14,6 +14,13 @@
                 callback(null, categoryData);
             },
 
+            categoryUpdate: function (categoryData, callback) {
+                if ('slug' in categoryData.category) {
+                    categoryData.category.slug = translit(categoryData.category.slug);
+                }
+                callback(null, categoryData);
+            },
+
             topicCreate: function (topicData, callback) {
                 topicData.topic.slug = translit(topicData.topic.slug);
                 callback(null, topicData);
