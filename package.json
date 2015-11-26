@@ -22,5 +22,8 @@
   "homepage": "https://github.com/NicolasSiver/nodebb-plugin-ns-slugify#readme",
   "dependencies": {
     "translitit-cyrillic-russian-to-latin": "^0.1.0"
+  },
+  "nbbpm": {
+    "compatibility": "^0.8.0 || ^0.9.0"
   }
 }
