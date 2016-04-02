@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-ns-slugify",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Auto transliteration of slugs.",
   "main": "plugin.js",
   "scripts": {
